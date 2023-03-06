@@ -1,10 +1,11 @@
+
 body {
   background-color: hsl(217, 54%, 11%);
 }
 
 #main_container {
   background-color: hsl(216, 50%, 16%);
-  height: 375px;
+  height: 400px;
   width: 250px;
   margin: 0;
   position: absolute;
@@ -20,9 +21,19 @@ body {
     margin: 13px;
     border-radius: 10px;
 }
+#first_text, #second_text, #third_text {
+    margin: 13px;
+    margin-top: 0;
+}
 
 #first_text {
     color: hsl(0, 0%, 100%); 
-    margin: 13px;
-    margin-top: 0;
+}
+
+#second_text {
+    color: hsl(215, 51%, 70%);
+}
+
+#third_text {
+    color: hsl(178, 100%, 50%);
 }

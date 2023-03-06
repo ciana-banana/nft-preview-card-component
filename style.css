@@ -21,3 +21,8 @@ body {
     border-radius: 10px;
 }
 
+#first_text {
+    color: hsl(0, 0%, 100%); 
+    margin: 13px;
+    margin-top: 0;
+}

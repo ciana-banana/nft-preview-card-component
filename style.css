@@ -1,15 +1,23 @@
 body {
-    background-color: hsl(217, 54%, 11%);
+  background-color: hsl(217, 54%, 11%);
 }
 
 #main_container {
-    background-color: hsl(216, 50%, 16%);
-    height: 375px;
-    width: 250px;
-    margin: 0;
-    position: absolute;
+  background-color: hsl(216, 50%, 16%);
+  height: 375px;
+  width: 250px;
+  margin: 0;
+  position: absolute;
   top: 50%;
   left: 40%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  border-radius: 15px;
 }
+
+#first_picture img{
+    width: 225px;
+    margin: 13px;
+    border-radius: 10px;
+}
+

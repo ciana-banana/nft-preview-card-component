@@ -14,6 +14,7 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   border-radius: 15px;
+  box-shadow: 0px 0px 15px 20px hsl(216, 51%, 10%);
 }
 
 #first_picture img{
@@ -30,10 +31,19 @@ body {
     color: hsl(0, 0%, 100%); 
 }
 
-#second_text {
+#second_text, #fourth_text{
     color: hsl(215, 51%, 70%);
 }
 
 #third_text {
     color: hsl(178, 100%, 50%);
+    float: left;
 }
+
+#fourth_text {
+    float: right;
+}
+
+/* .bottom_text p{
+    display: inline-block;
+} */

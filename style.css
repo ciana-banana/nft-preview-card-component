@@ -44,6 +44,13 @@ body {
     text-align: right;
 }
 
+hr {
+    height: 1.5px;
+    background-color: hsl(216, 21%, 46%);
+    border: none;
+    
+}
+
 /* .bottom_text p{
     display: inline-block;
 } */

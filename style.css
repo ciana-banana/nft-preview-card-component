@@ -51,6 +51,12 @@ hr {
     
 }
 
+#footer_container img {
+    width: 10%;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: white;
+}
 /* .bottom_text p{
     display: inline-block;
 } */

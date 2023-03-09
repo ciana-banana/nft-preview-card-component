@@ -22,7 +22,7 @@ body {
     margin: 13px;
     border-radius: 10px;
 }
-#first_text, #second_text, #third_text, #fourth_text {
+#first_text, #second_text, #third_text, #fourth_text, hr {
     margin: 13px;
     margin-top: 0;
 }

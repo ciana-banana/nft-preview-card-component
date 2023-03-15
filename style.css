@@ -28,7 +28,7 @@ body {
     border-radius: 10px;
 }
 #first_text, #second_text, #third_text, #fourth_text, hr, #footer_container {
-    margin: 13px;
+    margin: 15px;
     margin-top: 0;
 }
 
@@ -61,7 +61,7 @@ hr {
 }
 
 #footer_container img {
-    width: 10%;
+    width: 13%;
     border: 1px solid;
     border-radius: 50%;
     border-color: white;
@@ -72,12 +72,12 @@ hr {
 }
 
 #footer_text, #creator_name {
-    vertical-align: auto;
+    vertical-align: 65%;
 }
+
 
 #creator_name {
     color: white;
-    vertical-align: middle;
 }
 /* .bottom_text p{
     display: inline-block;

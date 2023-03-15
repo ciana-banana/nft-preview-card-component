@@ -35,7 +35,7 @@ body {
     color: hsl(0, 0%, 100%); 
 }
 
-#second_text, #fourth_text{
+#second_text, #fourth_text, #footer_text{
     color: hsl(215, 51%, 70%);
 }
 
@@ -60,6 +60,18 @@ hr {
     border: 1px solid;
     border-radius: 50%;
     border-color: white;
+}
+
+#footer_text {
+    margin: 0 0 0 13px;
+}
+
+#footer_text {
+
+}
+
+#creator_name {
+    color: white;
 }
 /* .bottom_text p{
     display: inline-block;

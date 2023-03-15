@@ -5,9 +5,8 @@ body {
 
 #main_container {
   background-color: hsl(216, 50%, 16%);
-  height: 450px;
+  height: 430px;
   width: 250px;
-  margin: 0;
   /* position: absolute;
   top: 50%;
   left: 40%;
@@ -66,12 +65,11 @@ hr {
     margin: 0 0 0 13px;
 }
 
-#footer_text {
-
-}
+#footer_text, 
 
 #creator_name {
     color: white;
+    vertical-align: middle;
 }
 /* .bottom_text p{
     display: inline-block;

@@ -1,6 +1,8 @@
 
 body {
   background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  font-size: 13px;
 }
 
 #main_container {
@@ -32,11 +34,14 @@ body {
 
 #first_text {
     color: hsl(0, 0%, 100%); 
+    font-size: 18px;
 }
 
 #second_text, #fourth_text, #footer_text{
     color: hsl(215, 51%, 70%);
+    font-weight: 300;
 }
+
 
 #third_text {
     color: hsl(178, 100%, 50%);
@@ -45,6 +50,7 @@ body {
 
 #fourth_text {
     text-align: right;
+    font-weight: 300;
 }
 
 hr {
@@ -65,7 +71,9 @@ hr {
     margin: 0 0 0 13px;
 }
 
-#footer_text, 
+#footer_text, #creator_name {
+    vertical-align: auto;
+}
 
 #creator_name {
     color: white;
